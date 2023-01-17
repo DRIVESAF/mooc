@@ -1,0 +1,71 @@
+/* 左侧边栏 */
+#menu {
+    position: fixed;
+    left: 0;
+    top: 50%;
+    transform: translateY(-45%);
+    width: 120px;
+    background-image: url(https://moco.imooc.com/static/activity/2023spring/images/bg-left.png);
+    background-repeat: no-repeat;
+    background-size: 128px auto;
+    background-position: -4px 0;
+    padding-top: 192px;
+    border-radius: 0 8px 8px 0;
+    color: #fff;
+
+    text-align: center;
+    z-index: 100;
+    user-select: none;
+}
+
+#menu li {
+    padding: 16px 0;
+    cursor: pointer;
+    transition: .2s;
+    background-color: #d72622;
+}
+
+#menu li:last-child {
+    border-radius: 0 0 8px 0;
+}
+
+#menu li:hover {
+    color: khaki;
+}
+
+/* 右侧边栏 */
+.menu-right {
+    position: fixed;
+    right: 0;
+    top: 35%;
+    width: 60px;
+    margin-top: -12px;
+    background-color: #fff;
+    box-shadow: 0 5px 20px 0 rgba(0, 0, 0, .1);
+    border-radius: 8px 0 0 8px;
+    z-index: 9;
+    user-select: none;
+    text-align: center;
+    cursor: pointer;
+}
+
+.menu-right li {
+    padding: 16px 0;
+}
+
+.menu-right .menu-right-hover {
+    display: none
+}
+
+.menu-right:hover .menu-right-hover {
+    display: block;
+}
+
+.menu-right:hover .menu-right-star {
+    display: none;
+}
+
+.menu-right .menu-right-hover li:hover {
+    font-size: 12px;
+    color: black;
+}
