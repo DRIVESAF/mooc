@@ -1,0 +1,92 @@
+/* j慕课直播整体布局 */
+#live {
+    padding: 32px 0;
+}
+
+.live-box {
+    height: 634px;
+}
+
+.live-box .title {
+    height: 36px;
+    padding-bottom: 30px;
+}
+
+/* 慕课直播整体布局结束 */
+
+/* 标题栏 */
+.live-box .title img {
+    width: 162px;
+}
+
+.live-box .title span {
+    font-size: 14px;
+    color: #9199a1;
+    letter-spacing: .88px;
+    line-height: 16px;
+    font-weight: 400;
+    margin-left: 28px;
+    padding-top: 12px;
+}
+
+.live-box .live-list ul {
+    width: 1176px;
+}
+
+.live-box .live-list ul li {
+    position: relative;
+    float: left;
+    width: 367px;
+    height: 220px;
+    margin: 0 24px 24px 0;
+    border-radius: 8px;
+    box-shadow: 0 5px 20px 0 rgba(0, 0, 0, .2);
+    transition: all .2s;
+}
+
+.live-box .live-list ul li img {
+    width: 367px;
+    height: 138px;
+    border-radius: 8px 8px 0 0;
+}
+
+.live-box .live-list .title {
+    font-size: 14px;
+    color: #545c63;
+    font-weight: 400;
+    line-height: 40px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    padding: 0 10px;
+}
+
+.live-box .live-list .time .iconfont {
+    font-size: 12px;
+    color: #9199a1;
+    margin-top: 5px;
+    margin-left: 12px;
+    font-weight: 400;
+}
+
+.live-box .live-list .time .yy {
+    float: right;
+    margin-top: -22px;
+    margin-right: 12px;
+    background-color: #0073ff;
+    border-radius: 12px;
+    color: #fff;
+    padding: 3px 18px;
+    font-size: 12px;
+}
+
+.live-box .live-list .time .hf {
+    float: right;
+    margin-top: -22px;
+    margin-right: 12px;
+    background-color: #4f4f4f;
+    border-radius: 12px;
+    color: #fff;
+    padding: 4px 22px;
+    font-size: 12px;
+}
