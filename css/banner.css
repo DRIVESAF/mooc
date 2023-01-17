@@ -1,0 +1,189 @@
+/* banner大盒子 */
+#banner {
+    /* 把大盒子居中 */
+    padding: 32px 0;
+    background-image: url(../images/swiper/bj-3.jpg);
+
+}
+
+.banner-box {
+    height: 482px;
+
+}
+
+.g-banner {
+    height: 382px;
+
+}
+
+.course-list {
+    width: 256px;
+    height: 382px;
+    background-color: #39364d;
+
+    border-radius: 8px 0 0 0;
+}
+
+.swiper {
+    width: 896px;
+    height: 382px;
+    border-radius: 0 8px 0 0;
+    position: relative;
+}
+
+.sys-class {
+    height: 100px;
+    border-radius: 0 0 8px 8px;
+    box-shadow: 0 5px 20px 0 rgb(0 0 0 / 30%);
+}
+
+
+
+/* 课程分类列表开始 */
+.course-list ul {
+    margin-top: 20px;
+}
+
+.course-list li {
+    height: 55px;
+    line-height: 50px;
+    padding: 0 10px;
+}
+
+.course-list li:hover {
+    background: rgba(255, 255, 255, .1);
+    cursor: pointer;
+}
+
+.course-list .title {
+    font-size: 14px;
+}
+
+.course-list .sub-title {
+    font-size: 14px;
+}
+
+.course-list .iconfont {
+    float: right;
+    font-size: 10px;
+    color: rgba(255, 255, 255, .5);
+}
+
+/* 课程分类结束 */
+
+/* 轮播图 */
+.swiper a {
+    display: block;
+    width: 896px;
+    height: 382px;
+    background-image: url(../images/swiper/swiper-3.jpg);
+    background-size: 896px;
+    border-radius: 0 8px 0 0;
+    transition: 1s;
+}
+
+.swiper .arrow {
+    position: absolute;
+    top: 180px;
+    margin-top: -24px;
+    width: 48px;
+    height: 48px;
+    background: rgba(28, 31, 33, .2) url(../images/icon-left-small.png) no-repeat center/16px auto;
+    border-radius: 50px;
+    transition: .5s;
+}
+
+.swiper .arrow:hover {
+    border-color: rgba(28, 31, 33, .5);
+    transition: .5s;
+}
+
+.prev {
+    left: 20px;
+}
+
+.next {
+    right: 20px;
+    transform: rotate(180deg);
+}
+
+/* 切换圆点图标 */
+.circle-list {
+    position: absolute;
+    right: 25px;
+    bottom: 15px;
+}
+
+.circle-list li {
+    cursor: pointer;
+    display: inline-block;
+    width: 8px;
+    height: 8px;
+    margin-left: 8px;
+    border-radius: 4px;
+    background: rgba(255, 255, 255, .75);
+    cursor: pointer;
+    transition: all .2s;
+}
+
+.circle-list li.current {
+    width: 20px;
+}
+
+/* 下方体系课 */
+.sys-icon-box {
+    display: inline-block;
+    padding: 18px;
+    margin-top: 10px;
+    background: #fff;
+    margin-left: 15px;
+}
+
+.sys-icon-box .sys-icon {
+    width: 45px;
+    height: 45px;
+    background-size: cover;
+    margin-right: 8px;
+}
+
+.sys-icon-box .title:hover h4 {
+    color: #ec1500;
+}
+
+.sys-icon-box h4 {
+    font-size: 14px;
+}
+
+.sys-icon-box p {
+    font-size: 12px;
+}
+
+.sys-class .line {
+    display: inline-block;
+    width: 2px;
+    height: 40px;
+    background-color: #e8e8e8;
+}
+
+.sys-class .more-btn {
+    display: inline-block;
+    font-size: 12px;
+    margin-left: 30px;
+    position: relative;
+    bottom: 25px;
+}
+
+.sys-class .more-btn .iconfont {
+    font-size: 12px;
+}
+
+.sys-icon {
+    transition: .2s;
+}
+
+.sys-icon:hover {
+    transform: rotate(30deg);
+    opacity: .5;
+}
+
+/* banner整体布局结束 */
