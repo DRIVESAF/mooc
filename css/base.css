@@ -1,0 +1,52 @@
+/* 清除元素默认的内外边距 */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* 去掉列表圆点 */
+li {
+    list-style: none;
+}
+
+/* 超链接设置 */
+a {
+    color: gray;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #07111b;
+}
+
+/* 页面字体设置 */
+body {
+    background-color: #F5F7FA;
+    font: 16px/1.5 'Microsoft YaHei', sans-serif, 'Heiti SC';
+    color: #a6a6a6;
+}
+
+/* 去掉图片边框、去掉图片的底侧空白缝隙 */
+img {
+    border: 0;
+    vertical-align: top;
+}
+
+/* 让所有斜体不倾斜 */
+em,
+i {
+    font-style: normal;
+}
+
+/* 鼠标移到按钮会变成小手 */
+button {
+    cursor: pointer;
+}
+
+/* 按钮和表单输入框设置 */
+button,
+input {
+    font-family: 'Microsoft YaHei', 'Heiti SC';
+    /* 取消轮廓线 */
+    outline: none;
+}
