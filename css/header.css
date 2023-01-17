@@ -1,0 +1,126 @@
+/* 顶部通栏*/
+#header {
+    width: 100%;
+    height: 72px;
+    border-bottom: 1px solid #ccc;
+    background-image: url(../images/bg-index.png);
+}
+
+.nav-box {
+    min-width: 1366px;
+    max-width: 1366px;
+    margin: 0 auto;
+}
+
+/* logo */
+.nav-box h1 {
+    width: 126px;
+    height: 72px;
+    background-image: url(../images/logo.png);
+    background-size: 132px 72px;
+}
+
+.nav-box h1 a {
+    width: 126px;
+    height: 72px;
+    display: block;
+    font-size: 0;
+
+}
+
+/* 课程导航栏 */
+.item-box {
+    height: 72px;
+    line-height: 72px;
+    margin-left: 28px;
+
+}
+
+.item-box li {
+    float: left;
+    padding: 0 16px;
+}
+
+.item-box li a {
+    color: #fff;
+}
+
+/* new 图标*/
+.new {
+    position: relative;
+}
+
+.new img {
+    position: absolute;
+    top: 18px;
+    right: 5px;
+    width: 15px;
+}
+
+/* 搜索框 */
+.search {
+    padding: 16px;
+    height: 40px;
+    line-height: 40px;
+    margin-left: 40px;
+
+}
+
+.search div {
+    background-color: rgb(244, 244, 244);
+    border-radius: 8px 8px 8px 8px;
+    width: 320px;
+}
+
+.search div input {
+    width: 290px;
+    height: 30px;
+    border-left: 10px;
+    border: 0;
+    background-color: rgb(244, 244, 244);
+    border-radius: 8px 8px 8px 8px;
+}
+
+/* 个人中心 */
+.login-area {
+    line-height: 72px;
+}
+
+.login-area a {
+    padding: 0 10px;
+}
+
+.login-area .shop-cart {
+    position: relative;
+    color: #fff;
+}
+
+.login-area .shop-cart:hover {
+    color: red;
+}
+
+.login-area .shop-cart .cart-num {
+    position: absolute;
+    top: -10px;
+    right: -5px;
+    display: block;
+    width: 20px;
+    line-height: .9;
+    height: 10px;
+    text-align: center;
+    background-color: #E77169;
+    color: #fff;
+    font-size: 12px;
+}
+
+.login-area a {
+    color: #fff;
+}
+
+.login-area a img {
+    width: 40px;
+    background-repeat: 50%;
+    top: 50px;
+    transform: translateY(40%);
+    border-radius: 50%;
+}
